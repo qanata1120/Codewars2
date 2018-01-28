@@ -1,17 +1,14 @@
 package homeworks;
 
 
-//Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
-//
-//The output should be two capital letters with a dot separating them.
-//
-//It should look like this:
-//
-//Sam Harris => S.H
-//
-//Patrick Feeney => P.F
 
-/*public class HW7b_8 {
+
+public class HW7b_8 {
+    //Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
+//The output should be two capital letters with a dot separating them.
+//It should look like this:
+//Sam Harris => S.H
+//Patrick Feeney => P.F
 
     public static String abbrevName(String name) {
 // String str = "Hi Sergey";
@@ -31,7 +28,6 @@ package homeworks;
         System.out.println(abbrevName("David Mendieta"));
 
     }
-}*/
 
 //All of the animals are having a feast! Each animal is bringing one dish. There is just one rule: the dish must start
 //and end with the same letters as the animal's name. For example, the great blue heron is bringing garlic naan and the
@@ -42,13 +38,12 @@ package homeworks;
 //Assume that beast and dish are always lowercase strings, and that each has at least two letters. beast and dish may
 //contain hyphens and spaces, but these will not appear at the beginning or end of the string. They will not contain numerals.
 
-/*public class HW7b_8 {
-
     public static boolean feast(String beast, String dish) {
         return (beast.charAt(0) == dish.charAt(0) &&
                 beast.charAt(beast.length() - 1) == dish.charAt(dish.length() - 1));
 
     }
+
     public static void main(String[] args) {
 
         System.out.println(feast("great blue heron","garlic nann"));
@@ -56,7 +51,7 @@ package homeworks;
         System.out.println(feast("brown bear","bear claw"));
 
     }
-}*/
+}
 
 //Triple Trouble
 //Create a function that will return a string that combines all of the letters of the three inputed strings in groups.
@@ -95,7 +90,7 @@ package homeworks;
 //
 //This kata is meant for beginners. Rank and upvote to bring it out of beta
 
-/*public class HW7b_8 {
+
     public static String position(char alphabet) {
 
         for (int i = 'a'; i < 'z'; i++){
@@ -109,8 +104,8 @@ package homeworks;
             System.out.println(position('z'));
             System.out.println(position('e'));
         }
-    }*/
-public class HW7b_8 {
+
+
     public static void main(String[]args) {
         int[] arr = {-6, -91, 1011, -100, 84, -22, 0, 1, 473};
         int max = 0;
