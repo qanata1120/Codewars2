@@ -70,57 +70,6 @@ package codewars;
         }
 }*/
 
-//This kata is from check py.checkio.org
-//
-//You are given an array with positive numbers and a number N. You should find the N-th power of the element in the array with the index N. If N is outside of the array, then return -1. Don't forget that the first element has the index 0.
-//
-//Let's look at a few examples:
-//
-//array = [1, 2, 3, 4] and N = 2, then the result is 3^2 == 9;
-//array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
-
-/*public class Extras {
 
 
-
-    public static void main(String[] args){
-        nthPower(new int[] {1,2}, 2));
-        nthPower(new int[] {3,1,2,2}, 3));
-        nthPower(new int[] {3,1,2}, 2));
-    }}???*/
-
-
-//Nathan loves cycling.
-//
-//Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
-//
-//You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
-//
-//For example:
-//
-//time = 3 ----> litres = 1
-//
-//time = 6.7---> litres = 3
-//
-//time = 11.8--> litres = 5
-
-/*public class Extras {
-public int Liters(double time)  {
-
-        return (int) time / 2;
-}
-
-    public static void main(String[] args){
-
-        System.out.println(Liters(1600.20));
-    }}???*/
-
-//https://www.codewars.com/kata/57eae65a4321032ce000002d/train/java
-
-/*public class Extras {
-public static String fakeBin(String numberString) {
-        return "";
-        //return numberString.replaceAll("[1-4]", "0").replaceAll("[5-9]", "1");
-
-    public static void main(String[] args){}}*/
 
