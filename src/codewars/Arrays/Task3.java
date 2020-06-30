@@ -12,11 +12,11 @@ public class Task3 {
                 System.out.println(arr2[i]);
             }
         }
+
         int sum = 0;
         for (int i = 0; i < arr2.length; i++)  {
             sum += arr2[i];
             System.out.println(sum);
         }
-
     }
 }
