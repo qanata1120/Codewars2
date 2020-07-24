@@ -3,94 +3,27 @@ package homeworks;
 
 
  public class Main {
-    public static void main(String[]args) {
-        int[] a = {1, 2, 3, 4, 5, 6}; //arrays
-        int[] b = new int[100];
-        int[] c = new int[]{10};
-        int sum = 0;
-        for (int i = 0; i < a.length; i++) {
-            sum = sum + a[i];   //is the same  to    sum += a[i]
-        }
-        System.out.print(sum);
-    }}*/
+
 /*
 public class Main {
-    public static void main(String[]args) {
-         int[] a = {5, 7, 2, 3, 4, 5, 6}; //arrays
-        int max =0;
-      //  int index = 0;
-        for(int i = 0; i<a.length; i++){
-        if (max < a[i]){
-            max = a[i];
-       //     index =i;
-        }}
-        System.out.println(max);
-      //  System.out.println(index);
-    }}
-*/
+
 
  /*   public class Main {
-    public static void main(String[]args) {
-    int[] a = {-5, -7, -2, -3, -4, 5, 6}; //arrays
-    int max =0;
-
-        for(int i = 0; i<a.length; i++){
-        if (max < a[i]){
-        max = a[i];
-        }}
-        System.out.println(max);}}
-*\
 
 
   /*
   public class Main {
-    public static void main(String[]args) {
-    int[] a = {-5, -7, -2, -3, -4, 5, 6};
-    int max = Integer.MIN_VALUE;
-
-        for(int i = 0; i<a.length; i++){
-            if (max < a[i]){
-        max = a[i];
-        }}
-        System.out.println(max);}}
 
         */
 
 /*public class Main {
-            public static void main(String[]args) {
-                int[] a = {-5, -7, -2, -3, -4, 5, 6};
-                int min = [0];   // Integer.MAX_VALUE;
 
-                for(int i = 0; i<a.length; i++) {
-                    if (min < a[i]){
-                        min = a[i];
-        }}
-                System.out.println(min);
-}}*/
 /*
 public class Main {
-    public static void main(String[]args) {
-        int[] a = {5, 7, 3, 2, 7, 6};
-        int[] b = {1, 2, 7, 2, 5, 3};
-        int[] x = new int[a.length + b.length];
-        System.out.println(Arrays.toString(x));
-        for (int i = 0; i <a.length + b.length; i++){
-            if (i < a.length) {
-                x[i] = a[i];
-            }  else {
-                x[i] = b[i - a.length];
-            }
-        }
-        System.out.println(Arrays.toString(x));   // we filled array x with values from array a and array b
-    }
-    }*/
+
 /*
 public class Main {
-    public static void main(String[]args) {
-           int[][] a = {{5, 1}, {7, 5, 6}};
-           a[0] = new int[]{10, 20, 30};
-           System.out.println(Arrays.toString(a[0]));
-    }}*/
+
 /*
 public class Main {
     public static void main(String[]args) {
