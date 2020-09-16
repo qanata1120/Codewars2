@@ -1,4 +1,4 @@
-package homeworks.code;
+package homeworks.startCode;
 
 public class Task8 {
     public static void main(String[] args) {
