@@ -12,7 +12,7 @@ public class Task4 {
         sum = sum + array[i];     // the same sum += array[i];
         }
         System.out.println(sum);
-        int average = sum / array.length;
+        double average = sum / array.length;
         System.out.println(average);
     }
 
