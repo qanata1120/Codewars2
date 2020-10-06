@@ -1,4 +1,4 @@
-package lesson_if;
+package lesson_if_else;
 
 public class TernaryOperatorIfElse {
 
@@ -14,6 +14,5 @@ public class TernaryOperatorIfElse {
             String result1 = (time < 10) ? "Good Morning." : "Good Day/";
             System.out.println(result1);
         }
-
     }
 }
