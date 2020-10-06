@@ -11,4 +11,4 @@ public class Task22 {
         }
         System.out.print(sum);
     }}
-}
+
