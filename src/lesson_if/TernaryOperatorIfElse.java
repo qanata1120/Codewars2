@@ -2,6 +2,9 @@ package lesson_if;
 
 public class TernaryOperatorIfElse {
 
+    //Ternary Operator If Else has a form
+    // variable = (condition) ? expressionTrue :  expressionFalse;
+
     public static void main(String[] args) {
         int time = 11;
         if (time > 12) {
