@@ -18,13 +18,17 @@ public class Task16 {
 //time = 11.8--> litres = 5
 
 
-    public int Liters(double time) {
+    public static int Liters(double time) {
 
         return (int) time / 2;
     }
 
     public static void main(String[] args) {
 
-        System.out.println(Liters(1600.20));
-    } ///????
+        System.out.println(Liters(6.7));
+        System.out.println(Liters(3));
+        System.out.println(Liters(11.8));
+        System.out.println(Liters(10.5));
+        System.out.println(Liters(20.9));
+    }
 }

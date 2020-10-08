@@ -14,17 +14,17 @@ public class Task12 {
         return sum;
 
         //Advanced script:
-        int arrSum = 0;
+       /* int arrSum = 0;
         for (int num : arr1) {
             arrSum += num;
         }
         for (int num : arr2) {
             arrSum += num;
         }
-        return arrSum;
+        return arrSum;*/
+    }
 
-
-        public static void main (String[]args){
+    public static void main(String[] args){
             int[] arr3 = {1, 1, 1, 1, 1};
             int[] arr4 = {2, 2, 2, 2, 2};
             int sum = arrayPlusArray(arr3, arr4);
@@ -34,4 +34,4 @@ public class Task12 {
     }
 
 
-}
+

@@ -1,4 +1,4 @@
-package codewars.Arrays;
+/*package codewars.Arrays;
 
 public class Task15 {
 
@@ -11,4 +11,4 @@ public static String fakeBin(String numberString) {
 
     public static void main (String[]args){
     }
-}}
+}}*/
