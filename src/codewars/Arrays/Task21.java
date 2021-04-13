@@ -9,7 +9,7 @@ public class Task21 {
         int[] b = new int[5];
         int[] c = new int[]{10};
 
-        for (int i =0; i <a.length; i++){     //for arrays methods you dont need (), for variable's methods there is a ()
+        for (int i =0; i <a.length; i++){   //for arrays methods you dont need (), for variable's methods there is a ()
             System.out.println(a[i]);
         }
         System.out.println(Arrays.toString(a));

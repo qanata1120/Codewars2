@@ -1,6 +1,6 @@
 package codewars.Arrays;
 
-public class Task31 {
+public class Task31DoubleLoopForArray {
 
     public static void main(String[] args) {
         int[][] a = {{5, 1}, {7, 5, 6}};

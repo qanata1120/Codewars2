@@ -1,8 +1,9 @@
 package codewars.Arrays;
 
-public class Task24 {
+public class Task23Max2 {
+
     public static void main(String[] args) {
-        int[] a = {-5, -7, -2, -3, -4, 5, 6}; //arrays
+        int[] a = {5, 7, 2, 3, 4, 5, 6};
         int max = 0;
 
         for (int i = 0; i < a.length; i++) {
@@ -10,7 +11,8 @@ public class Task24 {
                 max = a[i];
             }
         }
-        System.out.println(max);
+        System.out.println(max + " is maximum element in array.");
+
     }
 }
 

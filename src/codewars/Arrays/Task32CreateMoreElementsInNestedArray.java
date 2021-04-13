@@ -2,7 +2,7 @@ package codewars.Arrays;
 
 import java.util.Arrays;
 
-public class Task32 {
+public class Task32CreateMoreElementsInNestedArray {
     public static void main(String[]args) {
         int[] x = {5, 1};
         int[][] a = {x, {7, 5, 6}};
